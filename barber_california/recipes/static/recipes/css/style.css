@@ -57,7 +57,7 @@ body {
     font-family: var(--font-primary);
     background: var(--color-gray-5);
     color: var(--color-dark-text);
-    background-image: url("../img/plano de fundo3.jpg");
+    background-image: url("/static/recipes/img/plano de fundo3.jpg");
 }
 
 /* Títulos */
