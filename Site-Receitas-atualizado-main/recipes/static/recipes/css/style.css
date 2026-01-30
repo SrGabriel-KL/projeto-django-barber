@@ -57,9 +57,11 @@
             font-family: var(--font-primary);
             background: var(--color-gray-5);
             color: var(--color-dark-text);
-            background: url("/static/recipes/img/plano de fundo3.jpg");
+            background-image: url("../img/plano de fundo3.jpg");  
             
         }
+            
+        
         h1,
         h2,
         h3,
@@ -216,12 +218,16 @@
         .recipe-footer a:hover {
             filter: brightness(2);
         }
-        .main-content-detail .recipe-list-item {
-            max-width: 84rem;
-            margin: 0 auto;
-            display: block;
-            margin: 0 auto;
+        .main-content-detail {
+            display: flex;
+            justify-content: center;
         }
+
+            .main-content-detail .recipe-list-item {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
         .main-content-detail .recipe-list-item:hover {
             transform: scale(1);
             box-shadow: -5px 5px 5px rgba(0, 0, 0, 0);
@@ -249,7 +255,7 @@
             filter: brightness(.8);
         }
 
-
+        
 
 
 
